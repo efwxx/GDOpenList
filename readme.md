@@ -37,18 +37,20 @@ More Coming Soon!
 ## Owners:
 - Cyns
 - Fulva
+- Sydney
 ---
 ## List Admins:
 - GabeLucario
 - Kobra
 - V1nnyy
+- Acidius
 ---
 ## List Moderators:
-none
+- Goodyman
+- AcropolisBoy
 ---
 ## List Helpers:
 - Tril
-- Coney
 - dots
 ---
 ## Server Administrators:
@@ -56,10 +58,9 @@ none
 - Nezzi
 - Electro
 - krissi
-- yeezo
+- Yeezo
 - Magma
 - Bluestone
-- Acidius
 ---
 ## Repo Maintainers:
 - Electro
