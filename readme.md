@@ -1,12 +1,12 @@
-# Welcome to the maintained Geometry Dash Shitty List repo!
+# Welcome to the maintained Hardest Impossible Levels List repo!
 ---
-There isnt much going on here at the moment but the list team will actively be adding new records and levels, so keep an eye out on the [website](https://gdshittylist.asemnada991.repl.co/).
+There isnt much going on here at the moment but the list team will actively be adding new records and levels, so keep an eye out on the [website](https://impossiblelevellist.asemnada991.repl.co/).
 ---
 # FAQ
 ---
 ### Website FAQ
-Can I use the Shitty List template?
-- I mean, sure. head over to [releases](https://github.com/ElectroFlameOfficial/gdshittylist/releases) and choose the latest release. just make sure you give credit somewhere and make sure you state that you're not affiliated with the shitty list.
+Can I use this template?
+- I mean, sure. just make sure you give credit somewhere and make sure you state that you're not affiliated with the list.
 
 The website isnt loading! What can I do?
 - since no webhost is perfect, downtime is expected. you can either wait til the website is back online or you can do some behind the scene stuff and run it locally.
@@ -27,41 +27,39 @@ It's been like more than a week and my record still hasn't been added, what do i
 When will ___ be added to the list? 
 - With the way our current system works, the staff and relaibles play the levels, if the level gets enough positive opinions from us, it then goes into voting, where it is voted on if it will be added
 
-Can i submit Multiple levels on 1 video?
-- Yes
+Can I submit Multiple levels on 1 video?
+- No
 ---
 More Coming Soon!
 ---
 # List Staff Team
 ---
 ## Owners:
-- Cyns
-- Fulva
-- Sydney
+- HaydenDom
+- TiO2
+- Ultravenom
 ---
 ## List Admins:
-- GabeLucario
-- Kobra
-- V1nnyy
-- Acidius
 ---
 ## List Moderators:
-- Goodyman
-- AcropolisBoy
+- Maus9999
+- Doki
+- Wen
+- Jang
+- Knali
+- Prototype Hipo
+- Relayne
 ---
 ## List Helpers:
-- Tril
-- dots
 ---
 ## Server Administrators:
-- Lupe
-- Nezzi
-- Electro
-- krissi
-- Yeezo
-- Magma
-- Bluestone
+- Dysbelief
+- Maus9999
+- Doki
+- Wen
+- Jang
+- Knali
+- Wuro
 ---
-## Repo Maintainers:
+## Repo Maintainers (website Dev):
 - Electro
-- Cyns
