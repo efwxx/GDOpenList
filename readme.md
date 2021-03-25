@@ -1,6 +1,7 @@
 # Welcome to the maintained Hardest Impossible Levels List repo!
 ---
-There isnt much going on here at the moment but the list team will actively be adding new records and levels, so keep an eye out on the [website](https://impossiblelevellist.asemnada991.repl.co/).
+There isnt much going on here at the moment but the list team will actively be adding new records and levels, so keep an eye out on the [website]() (coming soon).
+<!--https://impossiblelevellist.asemnada991.repl.co/-->
 ---
 # FAQ
 ---
