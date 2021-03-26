@@ -2,66 +2,60 @@
 <html>
 
 <head>
-	<title>Impossible level list.</title>
-	<link href="//fonts.googleapis.com/css?family=Mukta+Mahee:200,400,700" rel="stylesheet">
-	<link href="css/stylesheet-main.css" type="text/css" rel="stylesheet">
-	<link rel="shortcut icon" href="https://vignette.wikia.nocookie.net/geometry-dash-fan/images/4/48/Hard_Demon.png/revision/latest?cb=20171009194744"
-	 type="image/x-icon">
-	<meta id="meta-title" property="og:title" content="Impossible level list">
-	<meta id="meta-desc" property="og:description" content="Home of the official Impossible levels list.">
-	<meta id="meta-image" name="og:image" itemprop="image" content="https://media.discordapp.net/attachments/598756348829892647/824467659722457098/sd2i.png?width=325&height=325">
-	<meta name="viewport" content="user-scalable=no">
-	<meta charset="UTF-8">
+    <title>The Impossible Levels List</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" crossorigin="anonymous" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
+    <link href="css/stylesheet-main.css" type="text/css" rel="stylesheet">
+    <link rel="shortcut icon" href="https://cdn.discordapp.com/emojis/767469001055535104.png?v=1" type="image/x-icon">
+    <meta id="meta-title" property="og:title" content="Impossible level list">
+    <meta id="meta-desc" property="og:description" content="Home of the official Impossible Levels List.">
+    <meta id="meta-image" name="og:image" itemprop="image" content="https://media.discordapp.net/attachments/598756348829892647/824467659722457098/sd2i.png?width=325&height=325">
+    <meta name="viewport" content="user-scalable=no">
+    <meta charset="UTF-8">
 </head>
 
 <body>
-	<script type='text/javascript' src="js/jquery-3.2.1.min.js">
+    <script type='text/javascript' src="js/jquery-3.2.1.min.js"></script>
+    <script type='text/javascript' src="js/sweetalert.min.js"></script>
+    <script type='text/javascript' src="js/list.js"></script>
+    <script type='text/javascript' src="js/userData.js"></script>
+    <!-- <cover-all id="hi"> -->
 
-	</script>
-	<script type='text/javascript' src="js/sweetalert.min.js">
+    <header>
+        <div id="sitename"><strong>The Hardest Impossible Levels List </strong><small><em id="version-node"></em></small></div>
+        <div id="pc-link"><a href="https://discord.gg/MHx4Nbp"><em><strong>Official Discord</strong></a></em></div>
+    </header>
 
-	</script>
-	<script type='text/javascript' src="js/list.js">
-
-	</script>
-	<script type='text/javascript' src="js/userData.js">
-
-	</script>
-	<cover-all id="hi">
-		<header id="dl-header">
-			<div id="sitename">
-				<!--<img src="/images/GD Shitty List.png" alt="" width="390" height="60">--><strong>Impossible level list </strong><small><em id="version-node"></em></small></div>
-            <div id="pc-link"><a href="https://discord.gg/MHx4Nbp"><em><strong>Official Discord</strong></a></em></div>
-        </header>
-        <div id="list">
-        </div>
+    <main>
+        <div id="list"></div>
         <div id="info">
             <div id="inner-info">
-                <center>
+                <div class="tac">
                     <div id="levelname"></div>
                     <div id="levelauthor">by <span id="inside-level-author"></span></div>
-                    <br>
                     <div id="leveldescription"></div>
                     <div id="levelvid"></div>
-                </center>
+                </div>
+
                 <div id="records">
-                    <center>
-                        <hr>
+                    <div class="tac">
+                        <br>
                         <div id="level-info" style="font-size: 22px">
-                            <div id="records-score"></div>
+                            <!--  <div id="records-score"></div>-->
                             <div id="records-id"></div>
                             <div id="records-pass"></div>
                         </div>
+
                         <hr>
-                        <div id="records-title"><strong>World Record</strong></div><br>
-                        <div id="qualification"><strong id="levelqualify"></strong>% or better required to qualify<br><br>
-                            <center><a target="_blank" href="https://discord.gg/MHx4Nbp">> Submit Record <</a></center>
-                        </div>
+
+                        <div id="records-title"><strong>World Record</strong></div>
                         <br>
-                    </center>
-                    <hr>
-                    <div id="records-table">
+                        <div id="qualification"><strong id="levelqualify"></strong>% or better required to qualify<br><br>
+                            <div class="tac"><a target="_blank" href="https://discord.gg/MHx4Nbp"> Submit Record </a></div>
+                        </div>
                     </div>
+                    <div id="records-table"></div>
+                    <hr>
                 </div>
             </div>
         </div>
@@ -70,23 +64,23 @@
                 <div><strong>Do you have a record to submit? Was your record typed incorrectly or does it need updating? <u><a target="_blank" href="https://discord.gg/MHx4Nbp">Submit your record!</a></u></strong></div>
                 <br>
                 <div>
-                  List Editors (random order):
+                    List Editors (random order):
                     <li>
-                    <a href="https://www.youtube.com/channel/UC4rOdiT41fy5lzjVW1Ko0wQ">HaydenDom</a>
+                        <a href="https://www.youtube.com/channel/UC4rOdiT41fy5lzjVW1Ko0wQ">HaydenDom</a>
                     </li>
                     <li>
-                    <a href="https://www.youtube.com/channel/UCLS4MOTNvFH9WYHz_ml-rBQ">Trollge</a>
+                        <a href="https://www.youtube.com/channel/UCLS4MOTNvFH9WYHz_ml-rBQ">Trollge</a>
                     </li>
                     <li>
-                    Relayne
+                        <a href="https://www.youtube.com/channel/UCaF2awD_PFUpXCrdo4v5QOA">Relayne</a>
                     </li>
                     <li>
-                    <a href="https://www.youtube.com/channel/UCnJhTBtnUI9siOSmh0GBSyQ">Prototype Hipo</a>
+                        <a href="https://www.youtube.com/channel/UCnJhTBtnUI9siOSmh0GBSyQ">Prototype Hipo</a>
                     </li>
                 </div>
                 <div>
-                    
-                    <br><br>
+                    <br>
+                    <br>
                     You can submit a record if you meet the following requirements:
                     <ul>
                         <li>Levels must be considered impossible or harder than any rated level at the time of their creation.</li>
@@ -94,304 +88,328 @@
                         <li>Levels must be finished and of decent quality.</li>
                         <li>Levels must not have spam faster than 15 inputs per player per second.</li>
                         <li>World records have a minimum progress percentage based on the level’s placement on the list.</li>
-                        <bold>NOTE: These rules have been simplified; Read the full rules <a href="https://docs.google.com/document/d/1S1J8Ld780Y_kRRYVRqy6bmNoCBq2aRsu_3FJHRYMH1Y/edit?usp=sharing">here</a>.
-                    </ul><br>
+                        <bold>NOTE: These rules have been simplified; read the full rules <a href="https://docs.google.com/document/d/1S1J8Ld780Y_kRRYVRqy6bmNoCBq2aRsu_3FJHRYMH1Y/edit?usp=sharing">here</a>.
+                    </ul>
+                    <br>
                     <br>
                     <p>
-                    Changelog:
-                    <br>
+                        Changelog:
+                        <br>
                     <ul>
-                      Website made! hope you have a better experience with the website <3. -Electro
+                        Website made! hope you have a better experience with the website<i class="fas fa-chart-line opa"></i> -Electro
                     </ul>
                     </p>
                 </div>
             </div>
-            <hr>
+
+
+
             <div id="user-rank-info">
                 <style type='text/css'>
-                A:link {
-                    color: black !important;
-                    text-decoration: none;
-                }
-                /* 아직 방문하지 않은경우 */
-                A:visited {
-                    color: black !important;
-                    text-decoration: none;
-                }
-                /* 한번 이상 방문한 링크 처리 */
-                A:active {
-                    color: black !important;
-                    text-decoration: none;
-                }
-                /* 마우스로 클릭하는 순간 */
-                A:hover {
-                    color: rgba(0, 0, 0, 0.5) !important;
-                    text-decoration: none;
-                }
-                /* 마우스 링크 위 올려 놓았을때 */
+                    A:link {
+                        color: rgb(96, 146, 255) !important;
+                        text-decoration: none;
+                    }
+
+                    /* 아직 방문하지 않은경우 */
+                    A:visited {
+                        color: rgb(96, 146, 255) !important;
+                        text-decoration: none;
+                    }
+
+                    /* 한번 이상 방문한 링크 처리 */
+                    A:active {
+                        color: rgb(96, 146, 255) !important;
+                        text-decoration: none;
+                    }
+
+                    /* 마우스로 클릭하는 순간 */
+                    A:hover {
+                        color: rgb(96, 146, 255) !important;
+                        text-decoration: none;
+                    }
+
+                    /* 마우스 링크 위 올려 놓았을때 */
                 </style>
-                <center><strong>User Score List</strong></center>
-                <div id="user-rank"></div>
+                <!---- <center><strong>User Score List</strong></center>
+            <div id="user-rank"></div> -->
             </div>
         </div>
-    </cover-all>
-    <script>
-    // height changing script
-    var hChange = function() {
-        var height = $(window).height();
-        let remainingHeight = (height - 100) + "px";
-        $("#list").css('height', remainingHeight)
-        $("#additional-information").css('height', remainingHeight)
-        $("#user-rank").css('height', remainingHeight)
-        $("#info").css('height', remainingHeight)
-    };
-    hChange();
-    $(window).resize(hChange)
-    // random color
-    var c = 0; //Math.floor(Math.random()*256);
-    function cueCSS() {}
-    cueCSS();
-    $('#hi').prop('style', 'background: hsl(' + c + ', 100%, 0%);')
-    </script>
-    <script name="userpoint" type="text/javascript">
-    function getPoint(rank) {
-        if (rank > 150) {
-            return roundNumber(15, 3);
-        } else {
-            return roundNumber((100 / Math.sqrt(((rank - 1) / 50) + 0.444444)) - 50, 3);
-        }
-    }
-    function roundNumber(num, scale) {
-        if (!("" + num).includes("e")) {
-            return +(Math.round(num + "e+" + scale) + "e-" + scale);
-        } else {
-            var arr = ("" + num).split("e");
-            var sig = ""
-            if (+arr[1] + scale > 0) {
-                sig = "+";
-            }
-            return +(Math.round(+arr[0] + "e" + sig + (+arr[1] + scale)) + "e-" + scale);
-        }
-    }
-    function getUserPoint(rank, percent, cutline, hz) {
-        var hzpoint = 0.0;
-        if (hz == null) {
-            hzpoint = 0;
-        } else if (hz == "Mobile") {
-            hzpoint = 0;
-        } else {
-            var hzInt = parseInt(hz.replace("Bypass", "").replace("hz", "").replace("bypass", "").replace("Hz", "").replace("HZ", ""));
-            if (hzInt >= 110) {
-                hzpoint = 0;
-            } else if (hzInt >= 70) {
-                hzpoint = 0;
-            } else {
-                hzpoint = 0;
-            }
-        }
-        var point_rank = 0;
-        if (rank > 50) {
-            point_rank = 50;
-        } else {
-            point_rank = rank;
-        }
-        hzpoint = 1 + (hzpoint * ((50-point_rank)/50));
-        if (rank > 150) {
-            return 0;
-        } else {
-            var score = roundNumber((((100 / Math.sqrt(((rank - 1) / 50) + 0.444444)) - 50) * hzpoint) * ((percent - (cutline - 1)) / (100 - (cutline - 1))), 3);
-            if (percent != 100) {
-                return roundNumber(score - (score / 3), 3);
-            } else {
-                return score;
-            }
-        }
-    }
-    function getAuthors(rank) {
-        Swal.fire({
-            html: list[rank - 1].more + '.'
-        });
-    }
-    var rank_node = $("#user-rank");
-    var rank_data = [];
-    for (var i = 0; i < list.length; i++) {
-        var entry = list[i];
-        for (var a = 0; a < entry.vids.length; a++) {
-            var entry2 = entry.vids[a];
-            var isLoot = false;
-            for (var b = 0; b < rank_data.length; b++) {
-                if (rank_data[b].name.toUpperCase() == entry2.user.toUpperCase()) {
-                    isLoot = true;
+
+
+
+        <!-- </cover-all> -->
+
+
+        <script>
+            // height changing script
+            var hChange = function () {
+                var height = $(window).height();
+                let remainingHeight = (height - 100) + "px";
+                $("#list").css('height', remainingHeight)
+                $("#additional-information").css('height', remainingHeight)
+                $("#user-rank").css('height', remainingHeight)
+                $("#info").css('height', remainingHeight)
+            };
+            hChange();
+            $(window).resize(hChange)
+            // random color
+            var c = 0; //Math.floor(Math.random()*256);
+            function cueCSS() { }
+            cueCSS();
+            $('#hi').prop('style', 'background: hsl(' + c + ', 100%, 0%);')
+        </script>
+
+
+        <script name="userpoint" type="text/javascript">
+            function getPoint(rank) {
+                if (rank > 150) {
+                    return roundNumber(15, 3);
+                } else {
+                    return roundNumber((100 / Math.sqrt(((rank - 1) / 50) + 0.444444)) - 50, 3);
                 }
             }
-            var po;
-            po = getUserPoint(i+1, entry2.percent, entry.percentToQualify, entry2.hz);
-            if (isLoot == true) {
-                for (var b = 0; b < rank_data.length; b++) {
-                    var user_name = rank_data[b].name.toUpperCase();
-                    var data_name = entry2.user.toUpperCase();
-                    if (user_name == data_name) {
-                        rank_data[b].point = rank_data[b].point + po;
+            function roundNumber(num, scale) {
+                if (!("" + num).includes("e")) {
+                    return +(Math.round(num + "e+" + scale) + "e-" + scale);
+                } else {
+                    var arr = ("" + num).split("e");
+                    var sig = ""
+                    if (+arr[1] + scale > 0) {
+                        sig = "+";
+                    }
+                    return +(Math.round(+arr[0] + "e" + sig + (+arr[1] + scale)) + "e-" + scale);
+                }
+            }
+            function getUserPoint(rank, percent, cutline, hz) {
+                var hzpoint = 0.0;
+                if (hz == null) {
+                    hzpoint = 0;
+                } else if (hz == "Mobile") {
+                    hzpoint = 0;
+                } else {
+                    var hzInt = parseInt(hz.replace("Bypass", "").replace("hz", "").replace("bypass", "").replace("Hz", "").replace("HZ", ""));
+                    if (hzInt >= 110) {
+                        hzpoint = 0;
+                    } else if (hzInt >= 70) {
+                        hzpoint = 0;
+                    } else {
+                        hzpoint = 0;
                     }
                 }
-            } else {
-                rank_data.push({ name: entry2.user, point: po });
-            }
-        }
-    }
-    var sortingField = "point"
-    rank_data.sort(function(a, b) {
-        return b[sortingField] - a[sortingField];
-    });
-    for (var i = 0; i < rank_data.length; i++) {
-        rank_data[i].point = roundNumber(rank_data[i].point, 3);
-    }
-
-    rank_data = userList();
-    var rank = `<ol>`;
-    for (var i = 0; i < rank_data.length; i++) {
-        sc = `getUserData(${i})`;
-        rank = `${rank} <span onclick="${sc}" style="cursor:pointer">${i+1}. ${rank_data[i].name} : ${rank_data[i].point} ➦</span><br>`;
-    }
-    rank = `${rank} </ol>`;
-    rank_node.html(`${rank}`);
-    </script>
-    <script name="postload" type="text/javascript">
-    var l = getParameterByName('q', window.location.href) * 1 - 1;
-    var list_node = $("#list");
-    var record_node = $("#records-table")
-    var legacy_count = 0;
-    for (var i = 0; i < list.length; i++) {
-        var entry = list[i];
-        if (entry.key == null) {
-            legacy_count++;
-        }
-    }
-    $("#version-node").text("(v" + version[0] + "." + version[1] + "." + version[2] + ")");
-    list.sort(function(a, b) {
-        var legacy_count = 0;
-        for (var i = 0; i < list.length; i++) {
-            var entry = list[i];
-            if (entry.key == null) {
-                legacy_count++;
-            }
-        }
-        var arank = 0;
-        var brank = 0;
-        if (a.key == null) {
-            arank = 150 + (legacy_count - a.legacyKey);
-        } else {
-            arank = (a.key) + 1;
-        }
-        if (b.key == null) {
-            brank = 150 + (legacy_count - b.legacyKey);
-        } else {
-            brank = (b.key) + 1;
-        }
-        return arank - brank;
-    });
-    for (var i = 0; i < list.length; i++) {
-        var entry = list[i];
-        if (entry.key != null) {
-            $("<div>").addClass((l == -1 ? (i == 0) : (i == l)) ? 'entry selected' : 'entry').html(`#${i+1}: <strong>${entry.name}</strong> by <em class="author">${entry.author}</em>`).attr('value', i).appendTo(list_node)
-        } else {
-            $("<div>").addClass((l == -1 ? (i == 0) : (i == l)) ? 'entry selected' : 'entry').html(`<strong>Legacy</strong>: <strong>${entry.name}</strong> by <em class="author">${entry.author}</em>`).attr('value', i).appendTo(list_node)
-        }
-    }
-    // handlers
-    var load = function(node) {
-        var num;
-        if (typeof node == 'number') {
-            num = node;
-        } else {
-            num = $(node).attr('value')
-        }
-        var entry = list[num];
-        if (!entry) {
-            load(0)
-        } else {
-            if (entry.verificationVid !== null && entry.verificationVid !== "") {
-                entry.verificationVid = entry.verificationVid
-                    .replace(/www\.youtube.com\/watch\?v=/gi, '')
-                    .replace(/\/youtu\.be/gi, '')
-                    .replace(/&t=\d+s/gi, '')
-                    .replace(/https:\/\//gi, '')
-            }
-            var rank = 0;
-            if (entry.key == null) {
-                rank = 150 + (legacy_count - entry.legacyKey);
-            } else {
-                rank = (entry.key) + 1;
-            }
-            var hacked = "";
-            if (entry.hacked != null) {
-                if (entry.hacked) {
-                    hacked = " <span class='hacked'>HACKED</span>";
+                var point_rank = 0;
+                if (rank > 50) {
+                    point_rank = 50;
                 } else {
-                    hacked = " <span class='p-hacked'>POSSIBLY HACKED</span>";
+                    point_rank = rank;
+                }
+                hzpoint = 1 + (hzpoint * ((50 - point_rank) / 50));
+                if (rank > 150) {
+                    return 0;
+                } else {
+                    var score = roundNumber((((100 / Math.sqrt(((rank - 1) / 50) + 0.444444)) - 50) * hzpoint) * ((percent - (cutline - 1)) / (100 - (cutline - 1))), 3);
+                    if (percent != 100) {
+                        return roundNumber(score - (score / 3), 3);
+                    } else {
+                        return score;
+                    }
                 }
             }
-            $("#levelname").html((rank > 150 ? `` : `#` + rank + ` `) + entry.name + hacked);
-            var author = entry.author;
-            var final_author;
-            if (author.includes(' more ')) {
-                final_author = author.replace(' more ', ' <u><span onclick="getAuthors(' + rank + ')" style="cursor:pointer">more</u> ');
-            } else {
-                final_author = author
+            function getAuthors(rank) {
+                Swal.fire({
+                    html: list[rank - 1].more + '.'
+                });
             }
-            final_author = final_author.replace(' [', ', Uploaded by ').replace(']', "")
-            $("#inside-level-author").empty();
-            $("#inside-level-author").html(final_author);
-            $("#leveldescription").empty();
-            $("#leveldescription").text(entry.desc);
-            $("#levelvid").empty();
-            if (entry.verificationVid !== null && entry.verificationVid !== "") {
-                $("#levelvid").html(`<hr><iframe class="vid" height="300" src="https://www.youtube.com/embed/${entry.verificationVid}?rel=0" frameborder="0" allowfullscreen></iframe>`);
+            var rank_node = $("#user-rank");
+            var rank_data = [];
+            for (var i = 0; i < list.length; i++) {
+                var entry = list[i];
+                for (var a = 0; a < entry.vids.length; a++) {
+                    var entry2 = entry.vids[a];
+                    var isLoot = false;
+                    for (var b = 0; b < rank_data.length; b++) {
+                        if (rank_data[b].name.toUpperCase() == entry2.user.toUpperCase()) {
+                            isLoot = true;
+                        }
+                    }
+                    var po;
+                    po = getUserPoint(i + 1, entry2.percent, entry.percentToQualify, entry2.hz);
+                    if (isLoot == true) {
+                        for (var b = 0; b < rank_data.length; b++) {
+                            var user_name = rank_data[b].name.toUpperCase();
+                            var data_name = entry2.user.toUpperCase();
+                            if (user_name == data_name) {
+                                rank_data[b].point = rank_data[b].point + po;
+                            }
+                        }
+                    } else {
+                        rank_data.push({ name: entry2.user, point: po });
+                    }
+                }
             }
-            $("#levelqualify").text(entry.percentToQualify);
-            $("#records-score").html(`<strong>Points when completed : ${getPoint(rank)}</strong>`);
-            $("#records-id").html(`<strong>Level ID : ${entry.id}</strong>`);
-            $("#records-pass").html(`<strong>Level Password : ${entry.pass}</strong>`);
-            $("#inside-level-author").html(final_author);
-            $(record_node).empty();
-            entry.vids.sort(function(a, b) {
-                return b.percent - a.percent;
+            var sortingField = "point"
+            rank_data.sort(function (a, b) {
+                return b[sortingField] - a[sortingField];
             });
-            for (var j = 0; j < entry.vids.length; j++) {
-                var record = entry.vids[j];
-                if (!record.link.includes('https://')) {
-                    record.link = "https://" + record.link;
-                }
-                if (record.hz == null) {
-                    record.hz = "144hz";
-                }
-                $("<div>").addClass('record-entry').html(`<div class='interentry'><a href="${record.link}" target="_blank"><strong>${record.user}</strong> (<em>${record.percent}%</em>) ${record.hz}</div>`).appendTo(record_node)
+            for (var i = 0; i < rank_data.length; i++) {
+                rank_data[i].point = roundNumber(rank_data[i].point, 3);
             }
-        }
-        cueCSS();
-    };
-    $('.entry').click(function() {
-        $('.entry').removeClass('selected')
-        $(this).addClass('selected');
-        load(this);
-    })
-    // https://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript
-    function getParameterByName(name, url) {
-        if (!url) url = window.location.href;
-        name = name.replace(/[\[\]]/g, "\\$&");
-        var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
-            results = regex.exec(url);
-        if (!results) return null;
-        if (!results[2]) return '';
-        return decodeURIComponent(results[2].replace(/\+/g, " "));
-    }
-    load(l * 1)
-    </script>
-    <noscript>
-        <div id="block">
-            You are not using JavaScript
-        </div>
-    </noscript>
+
+            rank_data = userList();
+            var rank = `<ol>`;
+            for (var i = 0; i < rank_data.length; i++) {
+                sc = `getUserData(${i})`;
+                rank = `${rank} <span onclick="${sc}" style="cursor:pointer">${i + 1}. ${rank_data[i].name} : ${rank_data[i].point} ➦</span><br>`;
+            }
+            rank = `${rank} </ol>`;
+            rank_node.html(`${rank}`);
+        </script>
+
+
+        <script name="postload" type="text/javascript">
+            var l = getParameterByName('q', window.location.href) * 1 - 1;
+            var list_node = $("#list");
+            var record_node = $("#records-table")
+            var legacy_count = 0;
+            for (var i = 0; i < list.length; i++) {
+                var entry = list[i];
+                if (entry.key == null) {
+                    legacy_count++;
+                }
+            }
+            $("#version-node").text("(v" + version[0] + "." + version[1] + "." + version[2] + ")");
+            list.sort(function (a, b) {
+                var legacy_count = 0;
+                for (var i = 0; i < list.length; i++) {
+                    var entry = list[i];
+                    if (entry.key == null) {
+                        legacy_count++;
+                    }
+                }
+                var arank = 0;
+                var brank = 0;
+                if (a.key == null) {
+                    arank = 150 + (legacy_count - a.legacyKey);
+                } else {
+                    arank = (a.key) + 1;
+                }
+                if (b.key == null) {
+                    brank = 150 + (legacy_count - b.legacyKey);
+                } else {
+                    brank = (b.key) + 1;
+                }
+                return arank - brank;
+            });
+            for (var i = 0; i < list.length; i++) {
+                var entry = list[i];
+                if (entry.key != null) {
+                    $("<div>").addClass((l == -1 ? (i == 0) : (i == l)) ? 'entry selected' : 'entry').html(`#${i + 1}: <strong>${entry.name}</strong> by <em class="author">${entry.author}</em>`).attr('value', i).appendTo(list_node)
+                } else {
+                    $("<div>").addClass((l == -1 ? (i == 0) : (i == l)) ? 'entry selected' : 'entry').html(`<strong>Legacy</strong>: <strong>${entry.name}</strong> by <em class="author">${entry.author}</em>`).attr('value', i).appendTo(list_node)
+                }
+            }
+            // handlers
+            var load = function (node) {
+                var num;
+                if (typeof node == 'number') {
+                    num = node;
+                } else {
+                    num = $(node).attr('value')
+                }
+                var entry = list[num];
+                if (!entry) {
+                    load(0)
+                } else {
+                    if (entry.verificationVid !== null && entry.verificationVid !== "") {
+                        entry.verificationVid = entry.verificationVid
+                            .replace(/www\.youtube.com\/watch\?v=/gi, '')
+                            .replace(/\/youtu\.be/gi, '')
+                            .replace(/&t=\d+s/gi, '')
+                            .replace(/https:\/\//gi, '')
+                    }
+                    var rank = 0;
+                    if (entry.key == null) {
+                        rank = 150 + (legacy_count - entry.legacyKey);
+                    } else {
+                        rank = (entry.key) + 1;
+                    }
+                    var hacked = "";
+                    if (entry.hacked != null) {
+                        if (entry.hacked) {
+                            hacked = " <span class='hacked'>HACKED</span>";
+                        } else {
+                            hacked = " <span class='p-hacked'>POSSIBLY HACKED</span>";
+                        }
+                    }
+                    $("#levelname").html((rank > 150 ? `` : `#` + rank + ` `) + entry.name + hacked);
+                    var author = entry.author;
+                    var final_author;
+                    if (author.includes(' more ')) {
+                        final_author = author.replace(' more ', ' <u><span onclick="getAuthors(' + rank + ')" style="cursor:pointer">more</u> ');
+                    } else {
+                        final_author = author
+                    }
+                    final_author = final_author.replace(' [', ', Uploaded by ').replace(']', "")
+                    $("#inside-level-author").empty();
+                    $("#inside-level-author").html(final_author);
+                    $("#leveldescription").empty();
+                    $("#leveldescription").text(entry.desc);
+                    $("#levelvid").empty();
+                    if (entry.verificationVid !== null && entry.verificationVid !== "") {
+                        $("#levelvid").html(`<hr><iframe class="vid" height="300" src="https://www.youtube.com/embed/${entry.verificationVid}?rel=0" frameborder="0" allowfullscreen></iframe>`);
+                    }
+                    $("#levelqualify").text(entry.percentToQualify);
+                    $("#records-score").html(`<strong>Points when completed : ${getPoint(rank)}</strong>`);
+                    $("#records-id").html(`<strong>Level ID : ${entry.id}</strong>`);
+                    $("#records-pass").html(`<strong>Level Password : ${entry.pass}</strong>`);
+                    $("#inside-level-author").html(final_author);
+                    $(record_node).empty();
+                    entry.vids.sort(function (a, b) {
+                        return b.percent - a.percent;
+                    });
+                    for (var j = 0; j < entry.vids.length; j++) {
+                        var record = entry.vids[j];
+                        if (!record.link.includes('https://')) {
+                            record.link = "https://" + record.link;
+                        }
+                        if (record.hz == null) {
+                            record.hz = "144hz";
+                        }
+                        $("<div>").addClass('record-entry').html(`<div class='interentry'><a href="${record.link}" target="_blank"><strong>${record.user}</strong> (<em>${record.percent}%</em>) ${record.hz}</div>`).appendTo(record_node)
+                    }
+                }
+                cueCSS();
+            };
+            $('.entry').click(function () {
+                $('.entry').removeClass('selected')
+                $(this).addClass('selected');
+                load(this);
+            })
+            // https://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript
+            function getParameterByName(name, url) {
+                if (!url) url = window.location.href;
+                name = name.replace(/[\[\]]/g, "\\$&");
+                var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+                    results = regex.exec(url);
+                if (!results) return null;
+                if (!results[2]) return '';
+                return decodeURIComponent(results[2].replace(/\+/g, " "));
+            }
+            load(l * 1)
+        </script>
+
+
+        <noscript>
+            <div id="block">
+                You are not using JavaScript
+            </div>
+        </noscript>
+
+    </main>
+
+    <footer>
+
+    </footer>
 </body>
 
 </html>
