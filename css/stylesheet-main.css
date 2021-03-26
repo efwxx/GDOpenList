@@ -1,6 +1,9 @@
 *{
-  font-family: 'Mukta Mahee', sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: white !important;
+}
+body {
+  background-image: url(https://cdn.discordapp.com/attachments/824313484253986846/824789250230845469/img.jpg);
 }
 header{
   position: fixed;
@@ -8,8 +11,17 @@ header{
   left: 0;
   width: 100%;
   height: 100px;
-  background: rgb(37, 37, 37);
+
 }
+
+.tac {
+  text-align: center;
+}
+
+.opa {
+  opacity: 50%;
+}
+
 #sitename{
   position: fixed;
   top: 30px;
@@ -25,23 +37,24 @@ header{
   font-size: 1.3em;
 }
 #list{
-  background-image: linear-gradient(to bottom, rgb(14, 14, 14), rgb(63, 63, 63));
-  position: fixed;
+  
+  position: fixed; 
   top: 100px;
   left: 0;
   width: 30%;
-  overflow-y: auto;
+  overflow:auto;
 }
+
 #additional-information{
-  background: rgb(66, 66, 66);
-  position: fixed;
+  
+   position: fixed;
   top: 100px;
   right: 0;
-  width: 30%;
-  overflow-y: auto;
+  width: 30%; 
+   overflow-y: auto; 
 }
 #info{
-  background: rgb(51, 51, 51);
+  
   position: fixed;
   top: 100px;
   left: 30%;
@@ -53,26 +66,21 @@ header{
 }
 .entry{
   padding: 1em;
-
 }
-.entry:nth-child(odd){
-  background: rgb(48, 48, 48);
-}
-.entry:hover{
-  background: rgb(34, 34, 34);
-  cursor: pointer;
-  color:rgba(0, 0, 0,0.5) !important;
+.entry:hover {
+  border: rgb(115, 169, 255) solid 4px;
+  cursor:default;
 }
 
-A:hover {color:rgb(255, 255, 255) !important; text-decoration:none; }
+A:hover {color:rgb(0, 0, 0) !important; text-decoration:none; }
 
 .selected{
-  background: rgb(27, 27, 27) !important;
+  opacity: 75%;
 }
 .author{
-  font-variant: small-caps;
+  font-weight: bold;
 }
-#levelname{
+#fname{
   font-size: 1.7em;
   font-weight: bold;
 
@@ -113,12 +121,12 @@ A:hover {color:rgb(255, 255, 255) !important; text-decoration:none; }
   width: 100%;
   padding: 0.5em;
 }
-.record-entry:nth-child(even){
-  background: rgb(209, 209, 209)
+/* .record-entry:nth-child(even){
+  background: url(https://www.mediafire.com/convkey/ab20/yp3pc92jpaev9oszg.jpg) 
 }
 .record-entry:nth-child(odd){
-  background: rgb(235, 235, 235)
-}
+    background: url(https://www.mediafire.com/convkey/ab20/yp3pc92jpaev9oszg.jpg) 
+}*/
 #block{
   position: fixed;
   top: 0;
@@ -151,7 +159,6 @@ A:hover {color:rgb(255, 255, 255) !important; text-decoration:none; }
   left: 0;
   width: 100%;
   height: 100%;
-  background: white;
   z-index: 99;
 }
 #user-rank {
@@ -168,17 +175,17 @@ Swal {
   width: 10px;
 }
 
-/* Track */
-::-webkit-scrollbar-track {
-  background: #f1f1f1; 
-}
+ /* Track */
+/* ::-webkit-scrollbar-track {
+  background: url(https://www.mediafire.com/convkey/ab20/yp3pc92jpaev9oszg.jpg)
+} */
  
 /* Handle */
-::-webkit-scrollbar-thumb {
-  background: grey; 
-}
+/*::-webkit-scrollbar-thumb {
+  background: url(https://www.mediafire.com/convkey/ab20/yp3pc92jpaev9oszg.jpg)
+} */
 
 /* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: rgb(68, 68, 68); 
-}
+/*::-webkit-scrollbar-thumb:hover {
+  background: url(https://www.mediafire.com/convkey/ab20/yp3pc92jpaev9oszg.jpg)
+} */
