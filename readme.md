@@ -1,5 +1,7 @@
 # Welcome to the maintained Geometry Dash Shitty List repo!
 ---
+# DISCLAIMER:
+This is currently being rewritten! The old code is still available [here](https://github.com/electroflameofficial/gdshittylist/tree/archive), but will be deprecated once the new code is fully functional.
 There isnt much going on here at the moment but the list team will actively be adding new records and levels, so keep an eye out on the [website](https://gdshittylist.asemnada991.repl.co/).
 ---
 # FAQ
