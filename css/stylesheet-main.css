@@ -1,7 +1,8 @@
 *{
   font-family: 'Mukta Mahee', sans-serif;
-  color: black !important;
+  color: rgb(0, 0, 0) !important;
 }
+
 header{
   position: fixed;
   top: 0;
@@ -41,7 +42,7 @@ header{
   overflow-y: auto;
 }
 #info{
-  background: rgb(204, 204, 204);
+  background: rgb(224, 224, 224);
   position: fixed;
   top: 100px;
   left: 30%;
@@ -59,9 +60,10 @@ header{
   background: rgb(224, 224, 224);
 }
 .entry:hover{
-  background: rgb(255, 255, 255);
+  border: rgb(100, 238, 248) solid 2px;
+ /*  background: rgb(34, 34, 34); */
   cursor: pointer;
-  color:rgba(0, 0, 0,0.5) !important;
+  color:rgb(0, 0, 0) !important;
 }
 
 A:hover {color:rgb(255, 255, 255) !important; text-decoration:none; }

@@ -6,7 +6,7 @@ There isnt much going on here at the moment but the list team will actively be a
 ---
 ### Website FAQ
 Can I use the Shitty List template?
-- I mean, sure. head over to [releases](https://github.com/ElectroFlameOfficial/gdshittylist/releases) and choose the latest release. just make sure you give credit somewhere and make sure you state that you're not affiliated with the shitty list.
+- I mean, sure. just make sure you give credit somewhere and make sure you state that you're not affiliated with the shitty list.
 
 The website isnt loading! What can I do?
 - since no webhost is perfect, downtime is expected. you can either wait til the website is back online or you can do some behind the scene stuff and run it locally.
@@ -37,30 +37,33 @@ More Coming Soon!
 ## Owners:
 - Cyns
 - Fulva
-- Sydney
----
-## List Admins:
 - GabeLucario
-- Kobra
-- V1nnyy
 - Acidius
 ---
-## List Moderators:
-- Goodyman
-- AcropolisBoy
----
-## List Helpers:
-- Tril
-- dots
----
+## List Admins:
+- Kobra
 ## Server Administrators:
 - Lupe
-- Nezzi
-- Electro
 - krissi
-- Yeezo
-- Magma
 - Bluestone
+---
+## List Moderators:
+- Zombieland
+- AcropolisBoy
+- Nezzi
+---
+## List Helpers:
+- Arveal
+- Microwaveee
+- Myz
+- ImSoSirius
+---
+## Server Administrators:
+- Electro
+- Magmeta
+- AnEatenOrange
+- TheInsanePro
+- strix
 ---
 ## Repo Maintainers:
 - Electro
