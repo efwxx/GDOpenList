@@ -1,6 +1,8 @@
 # Welcome to the maintained Geometry Dash Shitty List repo!
 ---
-There isnt much going on here at the moment but the list team will actively be adding new records and levels, so keep an eye out on the [website](https://gdshittylist.asemnada991.repl.co/).
+# DISCLAIMER:
+
+Support for this instance of the codebase will no longer be officially available once the rewrite is done, if you're still interested in using the old code and happened to run into errors, don't hesitate to shoot me a message at Electro#8628 or aeiorhfaera#8507. you can find the rewrite branch [here](https://github.com/electroflameofficial/gdshittylist/tree/main).
 ---
 # FAQ
 ---
@@ -31,36 +33,6 @@ Can i submit Multiple levels on 1 video?
 - Yes
 ---
 More Coming Soon!
----
-# List Staff Team
----
-## Owners:
-- Cyns
-- Fulva
-- Sydney
----
-## List Admins:
-- GabeLucario
-- Kobra
-- V1nnyy
-- Acidius
----
-## List Moderators:
-- Goodyman
-- AcropolisBoy
----
-## List Helpers:
-- Tril
-- dots
----
-## Server Administrators:
-- Lupe
-- Nezzi
-- Electro
-- krissi
-- Yeezo
-- Magma
-- Bluestone
 ---
 ## Repo Maintainers:
 - Electro
