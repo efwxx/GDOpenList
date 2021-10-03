@@ -2,7 +2,6 @@
 ---
 # DISCLAIMER:
 This is currently being rewritten! The old code is still available [here](https://github.com/electroflameofficial/gdshittylist/tree/archive), but will be deprecated once the new code is fully functional.
-There isnt much going on here at the moment but the list team will actively be adding new records and levels, so keep an eye out on the [website](https://gdshittylist.asemnada991.repl.co/).
 ---
 # FAQ
 ---
@@ -34,39 +33,9 @@ Can i submit Multiple levels on 1 video?
 ---
 More Coming Soon!
 ---
-# List Staff Team
+# Contact
 ---
-## Owners:
-- Cyns
-- Fulva
-- GabeLucario
-- Acidius
----
-## List Admins:
-- Kobra
-## Server Administrators:
-- Lupe
-- krissi
-- Bluestone
----
-## List Moderators:
-- Zombieland
-- AcropolisBoy
-- Nezzi
----
-## List Helpers:
-- Arveal
-- Microwaveee
-- Myz
-- ImSoSirius
----
-## Server Administrators:
-- Electro
-- Magmeta
-- AnEatenOrange
-- TheInsanePro
-- strix
----
+If you ever run into problems while setting this up, please contact Electro on Discord (Electro#8628), [twitter](https://twitter.com/poweredbyelectr), or the [official support server](https://discord.gg/jRAYbe6w6z).
 ## Repo Maintainers:
 - Electro
 - Cyns
