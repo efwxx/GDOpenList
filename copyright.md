@@ -1,6 +1,6 @@
 # Copyright
-The [insert list name here] is not affiliated with the official GD Shittylist<br>
-Original code and copyright can be found on [https://github.com/electroflameofficial/gdshittylist/blob/main/copyright.md](https://github.com/electroflameofficial/gdshittylist/blob/main/copyright.md)
+The [insert list name here] is not affiliated with GD Open List <br>
+Original code and copyright can be found on [https://github.com/electroflameofficial/GDOpenList/blob/main/copyright.md](https://github.com/electroflameofficial/gdopenlist/blob/main/copyright.md)
 <br>
 All rights reserved.
 
