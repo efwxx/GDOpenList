@@ -99,7 +99,6 @@
                     <i class="fas fa-code"></i>  <a href="https://www.youtube.com/c/PrometheusCoding/">Prometheus</a>
                     </li>
                       <small>(Prometheus rewrote the website UI)</small><br>
-                    For the staff: <a href="login.html">Login</a>
                   </div>
 
                   <!-- Modal footer -->
@@ -120,7 +119,18 @@
             <div class="col-4 bg-light"><a href="#list-151">Legacy List</a></div>
         </div>
         <div class="list-container">
-        <div id="discordserver">
+        <div class="mt-2 p-2 bg-light text-black rounded list-entry" id="list-1">
+            <div class="thumb ratio-16-9 js-delay-css player" style="background-image: url(&quot;https://i.ytimg.com/vi/9YYQBbrsV5Y/mqdefault.jpg&quot;);" data-property="background-image" data-property-value="url('https://i.ytimg.com/vi/9YYQBbrsV5Y/mqdefault.jpg')"><a class="play" href="https://www.youtube.com/watch?v=9YYQBbrsV5Y"></a></div>
+            <table style="display:inline-block;position:relative; height:90px; margin-left:20px;">
+                <tr>
+                    <td><h1 data-bs-toggle="modal" data-bs-target="#list-1-Modal">#1 - Shitty Tartarus</h1></td>
+                </tr>
+                <tr>
+                    <td><h5>RiotOfficial [Dolphy]</h5></td>
+                </tr>
+            </table>
+        </div>
+            <div id="discordserver">
                 <iframe id="widget" src="https://ptb.discord.com/widget?id=713151800932433972&theme=dark" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts" style="height:calc(100vh - 360px);"></iframe>
                 <div id="pc-link" style="font-size:30px;text-align:center;line-height:80px;color:white;border-radius:5px;">
                     <a href="https://discord.gg/5F299T7" style="color:white;text-decoration:none;"><strong>Join the server</strong></a>&nbsp;<em><i class="fab fa-discord"></i></em>
@@ -149,17 +159,6 @@
                     }
                 }
             </style>
-        <div class="mt-2 p-2 bg-light text-black rounded list-entry" id="list-1">
-            <div class="thumb ratio-16-9 js-delay-css player" style="background-image: url(&quot;https://i.ytimg.com/vi/9YYQBbrsV5Y/mqdefault.jpg&quot;);" data-property="background-image" data-property-value="url('https://i.ytimg.com/vi/9YYQBbrsV5Y/mqdefault.jpg')"><a class="play" href="https://www.youtube.com/watch?v=9YYQBbrsV5Y"></a></div>
-            <table style="display:inline-block;position:relative; height:90px; margin-left:20px;">
-                <tr>
-                    <td><h1 data-bs-toggle="modal" data-bs-target="#list-1-Modal">#1 - Shitty Tartarus</h1></td>
-                </tr>
-                <tr>
-                    <td><h5>RiotOfficial [Dolphy]</h5></td>
-                </tr>
-            </table>
-        </div>
         <!-- The Modal -->
             <div class="modal" id="list-1-Modal">
               <div class="modal-dialog">
@@ -200,54 +199,168 @@
                     </table>
                     <br>
                     <div class="table-responsive" style="height:40%;">
-                        <table class="table" style="text-align:center;">
-                            <tr>
-                                <td><a href="https://docs.google.com/forms/d/e/1FAIpQLSetODJEC3UX2oZMUEgazmpetcCe24F7_s1as-OwbtdvTKPDLQ/viewform">Submit level records</a></td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="table-responsive" style="height:40%;">
-                        <table class="table" style="text-align:center;">
-                            <thead>
-                                <tr>
-                                    <td class="name">Record Holder</td>
-                                    <td class="detail">Percentage</td>
-                                    <td class="detail">Beaten On</td>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td><a href="https://www.youtube.com/watch?v=Yx2IHj6YpRw">Mullsy</a></td>
-                                    <td>100%</td>
-                                    <td>240hz</td>
-                                </tr>
-                                <tr>
-                                    <td><a href="https://www.youtube.com/watch?v=48yoJxtxm3c">Ufokinwotm8</a></td>
-                                    <td>100%</td>
-                                    <td>360hz</td>
-                                </tr>
-                                <tr>
-                                    <td><a href="https://www.youtube.com/watch?v=48yoJxtxm3c">nSwish</a></td>
-                                    <td>100%</td>
-                                    <td>240hz</td>
-                                </tr>
-                                <tr>
-                                    <td><a href="https://www.youtube.com/watch?v=48yoJxtxm3c">Neiro</a></td>
-                                    <td>100%</td>
-                                    <td>144hz</td>
-                                </tr>
-                                <tr>
-                                    <td><a href="https://www.youtube.com/watch?v=48yoJxtxm3c">Wolvez</a></td>
-                                    <td>100%</td>
-                                    <td>360hz</td>
-                                </tr>
-                                <tr>
-                                    <td><a href="https://www.youtube.com/watch?v=48yoJxtxm3c">DashY</a></td>
-                                    <td>98%</td>
-                                    <td>Mobile</td>
-                                </tr>
-                            </tbody>
-                        </table>
+                        <!-- Editable table -->
+<div class="card">
+  <div class="card-body">
+    <div id="table" class="table-editable">
+      <span class="table-add float-right mb-3 mr-2"
+        ><a href="#!" class="text-success"
+          ><i class="fas fa-plus" aria-hidden="true"></i></a
+          > <span style="font-size:3vh;line-height:4vh;">Add a record</span></span>
+      <table class="table table-bordered table-responsive-md table-striped text-center" style="font-size:min(2vw, 15px);">
+        <thead>
+          <tr>
+            <td class="text-center" style="width:40%;">Record Holder</td>
+            <td class="text-center" style="width:10%;">Percentage</td>
+            <td class="text-center" style="width:10%">Beaten on</td>
+            <td class="text-center">Sort</td>
+            <td class="text-center">Remove</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td contenteditable="true">Mullsy</td>
+            <td contenteditable="true">100%</td>
+            <td contenteditable="true">240hz</td>
+            <td>
+              <span class="table-up"
+                ><a href="#!" class="indigo-text"
+                  ><i class="fas fa-long-arrow-alt-up" aria-hidden="true"></i></a
+              ></span>
+              <span class="table-down"
+                ><a href="#!" class="indigo-text"
+                  ><i class="fas fa-long-arrow-alt-down" aria-hidden="true"></i></a
+              ></span>
+            </td>
+            <td>
+              <span class="table-remove"
+                ><button type="button" class="btn btn-danger btn-rounded btn-sm my-0">
+                  <i class="bi bi-trash"></i>
+                </button></span
+              >
+            </td>
+          </tr>
+          <!-- This is our clonable table line -->
+          <tr>
+            <td contenteditable="true">Wolvez</td>
+            <td contenteditable="true">100%</td>
+            <td contenteditable="true">360hz</td>
+            <td>
+              <span class="table-up"
+                ><a href="#!" class="indigo-text"
+                  ><i class="fas fa-long-arrow-alt-up" aria-hidden="true"></i></a
+              ></span>
+              <span class="table-down"
+                ><a href="#!" class="indigo-text"
+                  ><i class="fas fa-long-arrow-alt-down" aria-hidden="true"></i></a
+              ></span>
+            </td>
+            <td>
+              <span class="table-remove"
+                ><button type="button" class="btn btn-danger btn-rounded btn-sm my-0">
+                  <i class="bi bi-trash"></i>
+                </button></span
+              >
+            </td>
+          </tr>
+          <!-- This is our clonable table line -->
+          <tr>
+            <td contenteditable="true">nSwish</td>
+            <td contenteditable="true">100%</td>
+            <td contenteditable="true">240hz</td>
+            <td >
+              <span class="table-up"
+                ><a href="#!" class="indigo-text"
+                  ><i class="fas fa-long-arrow-alt-up" aria-hidden="true"></i></a
+              ></span>
+              <span class="table-down"
+                ><a href="#!" class="indigo-text"
+                  ><i class="fas fa-long-arrow-alt-down" aria-hidden="true"></i></a
+              ></span>
+            </td>
+            <td>
+              <span class="table-remove"
+                ><button type="button" class="btn btn-danger btn-rounded btn-sm my-0">
+                  <i class="bi bi-trash"></i>
+                </button></span
+              >
+            </td>
+          </tr>
+          <!-- This is our clonable table line -->
+          <tr class="hide">
+            <td contenteditable="true">DashY</td>
+            <td contenteditable="true">98%</td>
+            <td contenteditable="true">Mobile</td>
+            <td>
+              <span class="table-up"
+                ><a href="#!" class="indigo-text"
+                  ><i class="fas fa-long-arrow-alt-up" aria-hidden="true"></i></a
+              ></span>
+              <span class="table-down"
+                ><a href="#!" class="indigo-text"
+                  ><i class="fas fa-long-arrow-alt-down" aria-hidden="true"></i></a
+              ></span>
+            </td>
+            <td>
+              <span class="table-remove"
+                ><button type="button" class="btn btn-danger btn-rounded btn-sm my-0">
+                  <i class="bi bi-trash"></i>
+                </button></span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+                        <script>
+                        const $tableID = $('#table'); const $BTN = $('#export-btn'); const $EXPORT = $('#export');
+const newTr = `
+<tr class="hide">
+  <td class="pt-3-half" contenteditable="true">Example</td>
+  <td class="pt-3-half" contenteditable="true">Example</td>
+  <td class="pt-3-half" contenteditable="true">Example</td>
+  <td class="pt-3-half" contenteditable="true">Example</td>
+  <td class="pt-3-half" contenteditable="true">Example</td>
+  <td class="pt-3-half">
+    <span class="table-up"
+      ><a href="#!" class="indigo-text"
+        ><i class="fas fa-long-arrow-alt-up" aria-hidden="true"></i></a
+    ></span>
+    <span class="table-down"
+      ><a href="#!" class="indigo-text"
+        ><i class="fas fa-long-arrow-alt-down" aria-hidden="true"></i></a
+    ></span>
+  </td>
+  <td>
+    <span class="table-remove"
+      ><button
+        type="button"
+        class="btn btn-danger btn-rounded btn-sm my-0 waves-effect waves-light"
+      >
+        Remove
+      </button></span
+    >
+  </td>
+</tr>
+`; $('.table-add').on('click', 'i', () => { const $clone = $tableID.find('tbody
+tr').last().clone(true).removeClass('hide table-line'); if ($tableID.find('tbody tr').length
+=== 0) { $('tbody').append(newTr); } $tableID.find('table').append($clone); });
+$tableID.on('click', '.table-remove', function () { $(this).parents('tr').detach(); });
+$tableID.on('click', '.table-up', function () { const $row = $(this).parents('tr'); if
+($row.index() === 0) { return; } $row.prev().before($row.get(0)); }); $tableID.on('click',
+'.table-down', function () { const $row = $(this).parents('tr');
+$row.next().after($row.get(0)); }); // A few jQuery helpers for exporting only jQuery.fn.pop
+= [].pop; jQuery.fn.shift = [].shift; $BTN.on('click', () => { const $rows =
+$tableID.find('tr:not(:hidden)'); const headers = []; const data = []; // Get the headers
+(add special header logic here) $($rows.shift()).find('th:not(:empty)').each(function () {
+headers.push($(this).text().toLowerCase()); }); // Turn all existing rows into a loopable
+array $rows.each(function () { const $td = $(this).find('td'); const h = {}; // Use the
+headers from earlier to name our hash keys headers.forEach((header, i) => { h[header] =
+$td.eq(i).text(); }); data.push(h); }); // Output the result
+$EXPORT.text(JSON.stringify(data)); });
+                        </script>
+<!-- Editable table -->
                     </div>
                     
                   </div>
@@ -402,8 +515,47 @@
             </script>
           </div>
         </div>
-
+        <div class="offcanvas offcanvas-end" id="addmenu">
+          <div class="offcanvas-header">
+            <h1 class="offcanvas-title">Add a level</h1>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+          </div>
+          <div class="offcanvas-body">
+            <form class="form-inline" action="/action_page.php">
+                <div class="form-group">
+                    <label for="name">Level name:</label>
+                    <input type="text" value="Shitty " class="form-control" id="name">
+                </div>
+                <div class="form-group">
+                    <label for="author">Level author(s):</label>
+                    <input type="text" class="form-control" id="author">
+                </div>
+                <div class="form-group">
+                    <label for="verifier">Verifier:</label>
+                    <input type="text" class="form-control" id="verifier">
+                </div>
+                <div class="form-group">
+                    <label for="link">Showcase Video Link:</label>
+                    <input type="url" class="form-control" id="link">
+                </div>
+                <br>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-5"><label for="placement">Placement:</label></div>
+                        <div class="col-4"><input type="number" class="form-control" id="placement" min="1" max="150"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-5"><label for="requirement">List percentage:</label></div>
+                        <div class="col-4"><input type="number" class="form-control" id="requirement" min="1" max="100"></div>
+                    </div>
+                </div>
+                <br>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
         <!-- Button to open the offcanvas sidebar -->
+        <button class="btn btn-secondary" type="button" data-bs-toggle="offcanvas" data-bs-target="#addmenu" id="addbutton"><i class="bi bi-plus"></i></button>
         <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo" id="statsbutton">
           <i class="fas fa-trophy"></i>
         </button>
@@ -539,6 +691,14 @@
                 height: calc(8px + min(60px, 12vw));
                 width: calc(8px + min(60px, 12vw));
             }
+            #addbutton{
+                position:fixed;
+                bottom: calc(35px + min(60px, 12vw));
+                right:25px;
+                border-radius: 50%;
+                height: calc(8px + min(60px, 12vw));
+                width: calc(8px + min(60px, 12vw));
+            }
             #stats-viewer{
                 max-height:calc(100vh - 220px);
                 border:1px solid;
@@ -550,6 +710,17 @@
             }
             .fa-trophy{
                 font-size:min(30px, 6vw);
+            }
+            .bi-plus{
+                font-size:min(60px, 12vw);
+                line-height: 0px;
+                display:block;
+                position:relative;
+                left:-9px;
+            }
+            .red{
+                color:red;
+                cursor:pointer;
             }
         </style>
     </body>
