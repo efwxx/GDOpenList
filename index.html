@@ -417,7 +417,7 @@ document.getElementsByTagName("body")[0].innerHTML=twemoji.parse(document.getEle
                     .replace(/https:\/\//gi, '')
             }
             var rank = 0;
-            if (entry.key == null) {
+            if (entry.key == undefined) {
                 rank = 150 + (legacy_count - entry.legacyKey);
             } else {
                 rank = (entry.key) + 1;
@@ -430,7 +430,7 @@ document.getElementsByTagName("body")[0].innerHTML=twemoji.parse(document.getEle
                     hacked = " <span class='p-hacked'>POSSIBLY HACKED</span>";
                 }
             }
-            $("#levelname").html((rank > 150 ? `` : `#` + rank + ` `) + entry.name + hacked);
+            $("#levelname").html(isNaN(rank) ? `${entry.name}${hacked}` : `#${rank} ${entry.name}${hacked}`);
             var author = entry.author;
             var final_author;
             if (author.includes(' more ')) {
